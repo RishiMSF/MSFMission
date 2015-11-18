@@ -1,0 +1,236 @@
+
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: rgba(229, 229, 229, 1);
+    margin: 20px 20px 20px 20px;
+}
+
+#main {
+    background-color: rgba(229, 229, 229, 1) !important;
+}
+
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #e51400;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+
+}
+
+#timeline{
+  height:  290px;
+  width:  90%;
+  padding :   0px   5%  0px   5% ;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #e51400;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-size: 18px;
+  color: #999;
+  line-height: 28px;
+}
+
+#skills-h3 {
+  color: #e51400;
+  display: none;
+}
+
+.white-text {
+  font-weight: normal ;
+  color: #333;
+}
+
+.section{
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  margin-bottom:  10px;
+}
+
+/* TODO: Replace with image later */
+#header {
+  background-color: #f3f3f3;
+  margin-bottom: 10px;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#lets-connect {
+  text-align: center;
+  color:  #E51400;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
+
+.myButton {
+  -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+  -webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+  box-shadow:inset 0px 39px 0px -24px #e67a73;
+  background-color:#e4685d;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:6px 15px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+  background-color:#eb675e;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
